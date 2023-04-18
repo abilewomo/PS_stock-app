@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 2em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.stock a, .top {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  color: #000;
+}
+.stock a:visited  {
+ color: #000;
+}
+.stock div{
+  display: block;  
+}
+
+.stockName{
+ padding: 10px 15px;
+ width: 35vw;
+}
+.stockPrice{
+  width: 30vw;
+  padding: 10px
+}
+.stockChange{
+  width: 30vw;
+  padding: 10px;
+}
